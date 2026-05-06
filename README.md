@@ -1,55 +1,64 @@
-# Quantium Chips Analysis
+# Quantium Data Analytics Simulation — Forage
 
-This project uses transactional and customer demographic data to analyze consumer purchasing patterns in the chips category. The objective is to pinpoint customer segments that are commercially valuable and offer suggestions for the next category review.
+As part of the Quantium Data Analytics Virtual Experience on Forage, customer segmentation and purchasing behavior analysis for the chips category were completed.
 
+## The Brief
 
+Identify commercially valuable customer segments using transactional and customer demographic data, then provide recommendations to guide Quantium's upcoming category review.
 
-## 1. Key Findings
+## Key Findings
 
-### **Lifestage Performance**
-- **Older Singles/Couples** and **Retirees** are the strongest contributors to total chip sales.
-- **New Families** show minimal engagement with the category.
-- Mature households demonstrate higher chip consumption frequency and spend.
+### Lifestage Performance
+- **Older Singles/Couples** and **Retirees** are the strongest contributors to 
+total chip sales
+- Mature households show higher purchase frequency and spend per visit
+- New Families show minimal category engagement
 
-### **Premium Customer Segments**
-- **Mainstream customers** generate the highest revenue.
-- **Budget shoppers** follow closely behind.
-- **Premium customers** contribute the least, indicating lower engagement or preference for healthier alternatives.
+### Customer Tier Performance
 
-### **Combined Segmentation**
-The highest-value customer groups are:
-- **Older Singles/Couples — Mainstream**
-- **Retirees — Mainstream / Budget**
-- **Older Families — Mainstream**
+| Tier | Revenue Contribution |
+|---|---|
+| Mainstream | Highest |
+| Budget | Second |
+| Premium | Lowest |
 
-These should be prioritised in category strategy.
+The low engagement of premium customers indicates a preference for alternatives, which is a product gap worth investigating.
 
+### Highest-Value Segments
+The three segments to prioritise in category strategy:
 
+1. Older Singles/Couples — Mainstream
+2. Retirees — Mainstream / Budget
+3. Older Families — Mainstream
 
-## 2. Product Insights
+## Product Insights
 
-### **Pack Size Preferences**
-- Mid-range pack sizes (150g–175g) dominate revenue and unit sales.
-- Small snack sizes (<100g) and large party sizes (250g+) contribute less.
-- Promotional strategy should focus on mid-sized packs.
+### Pack Size
+- Mid-range packs (**150g–175g**) dominate both revenue and unit sales
+- Small snack sizes (<100g) and large party sizes (250g+) underperform
+- Promotional focus should concentrate on the mid-range
 
-### **Brand Performance**
-Top-performing brands include:
-1. **Kettle**  
-2. **Doritos**  
-3. **Smith’s**
+### Brand Performance
 
-These brands drive both high revenue and transaction volume.  
-Mid-tier brands like **Grain Waves** and **Twisties** offer strong promotional potential.
+| Rank | Brand | Notes |
+|---|---|---|
+| 1 | Kettle | Highest revenue and transactions |
+| 2 | Doritos | Strong across both metrics |
+| 3 | Smith's | Consistent performer |
 
+Mid-tier brands (Grain Waves, Twisties) offer untapped promotional potential.
 
+## Strategic Recommendations
 
-## 3. Strategic Recommendations
+- Target older mainstream households as the primary category audience
+- Concentrate promotions on 150g–175g pack sizes
+- Prioritise premium shelf placement for Kettle, Doritos, and Smith's
+- Investigate gourmet or healthier options to convert Premium customers
 
-- **Target older mainstream households**, who are the strongest contributors to the category.
-- **Focus promotional activity** on 150g–175g pack sizes, which drive the majority of sales.
-- **Prioritise premium shelf space** and catalogue promotions for Kettle, Doritos, and Smith’s.
-- Explore opportunities to **increase engagement with Premium customers**, possibly through healthier or gourmet chip varieties.
+## Tools
 
-
-
+| Category | Tools |
+|---|---|
+| Data manipulation | Pandas, NumPy |
+| Visualisation | Matplotlib, Seaborn |
+| Environment | Jupyter Notebook |
